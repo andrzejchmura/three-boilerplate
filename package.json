@@ -1,0 +1,23 @@
+{
+  "name": "three-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "public/bundle.js",
+  "scripts": {
+    "start": "serve public & rollup -c --watch",
+    "build": "rollup -c rollup.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "rollup": "^0.58.2",
+    "rollup-plugin-commonjs": "^9.1.0",
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "serve": "^6.5.0"
+  },
+  "dependencies": {
+    "three": "^0.92.0",
+    "three-orbit-controls": "^82.1.0"
+  }
+}
